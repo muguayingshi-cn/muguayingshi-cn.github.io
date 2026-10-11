@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="木瓜影视 - 精选优质影视导航大全与实用网址收录平台。按院线、剧集、纪录、动画、修复、短片六个频道整理正版观影入口，附高分片单、雨林放映与收录刻度。">
+<meta name="keywords" content="木瓜影视,muguayingshi,木瓜,青藤,雨林,影视导航,网址收录,正版观影,院线新片,剧集,纪录片,动画,修复经典,高分片单,地球脉动,绿里奇迹">
+<meta name="author" content="木瓜影视">
+<meta name="theme-color" content="#10170d">
+<link rel="canonical" href="https://muguayingshi-cn.github.io/">
+<title>木瓜影视 - 精选优质影视导航大全 · 实用网址收录平台 | 甜的，要慢慢切</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",system-ui,sans-serif;background:#10170d;color:#e2ebd6;line-height:1.85;overflow-x:hidden;font-size:.95rem}
+a{color:inherit;text-decoration:none}
+ul,ol,dl{list-style:none}
+:focus-visible{outline:2px solid #e58c39;outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 1.3rem}
+
+/* 顶栏 */
+.top{position:sticky;top:0;z-index:99;background:rgba(16,23,13,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(120,168,82,.28)}
+.tin{display:flex;align-items:center;gap:1rem;height:66px}
+.brand{display:flex;align-items:center;gap:.5rem;font-weight:900;white-space:nowrap;color:#e2ebd6}
+.logo{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:1.5rem;line-height:1;flex:0 0 auto;
+  background:radial-gradient(circle at 36% 30%,#fff 0 5%,#f7c75f 12% 26%,#e58c39 34% 54%,#7a4518 66%);
+  box-shadow:0 8px 24px rgba(229,140,57,.34),inset 0 0 12px rgba(255,255,255,.4);animation:pl 5.6s ease-in-out infinite alternate;position:relative}
+.logo::after{content:"";position:absolute;inset:3px;border-radius:50%;border:1px solid rgba(255,255,255,.24)}
+@keyframes pl{from{box-shadow:0 0 18px rgba(247,199,95,.3),inset 0 0 12px rgba(255,255,255,.34)}to{box-shadow:0 0 40px rgba(247,199,95,.6),0 0 100px rgba(247,199,95,.22),inset 0 0 12px rgba(255,255,255,.52)}}
+.brand span{font-size:1.12rem;letter-spacing:.05em}
+.brand em{font-style:normal;color:#e58c39;font-size:.15rem;letter-spacing:.2em;display:block;font-weight:800}
+.brand small{font-size:.42rem;color:#8faa76;font-weight:700;margin-left:.14rem;letter-spacing:.1em;text-transform:uppercase;font-family:Georgia,serif}
+.tabs{display:flex;gap:.16rem;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{padding:.46rem .8rem;border-radius:999px;font-size:.82rem;color:#b9cba8;white-space:nowrap;transition:.2s;font-weight:600}
+.tabs a:hover{color:#f7e3c6;background:rgba(229,140,57,.14)}
+.tabs a.on{background:#e58c39;color:#1a1208;font-weight:800;box-shadow:0 6px 20px rgba(229,140,57,.44)}
+
+/* Hero —— 雨林 · 木瓜 · 青藤 */
+.hero{position:relative;overflow:hidden;background:
+  radial-gradient(360px 220px at 88% 12%,rgba(229,140,57,.3),transparent 52%),
+  radial-gradient(420px 260px at 6% 94%,rgba(74,124,74,.4),transparent 58%),
+  linear-gradient(178deg,#0a1008 0%,#10170d 46%,#152110 100%)}
+.vines{position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:repeating-linear-gradient(94deg,transparent 0 30px,rgba(143,170,118,.05) 30px 31px)}
+.leaf{position:absolute;z-index:1;border-radius:0 100% 0 100%;opacity:.72;transform-origin:center;animation:lf 6.4s ease-in-out infinite alternate}
+.leaf::after{content:"";position:absolute;inset:18% 46%;background:linear-gradient(90deg,transparent,rgba(20,33,16,.5));border-radius:999px}
+@keyframes lf{from{transform:rotate(-5deg) scale(.96)}to{transform:rotate(6deg) scale(1.04)}}
+.fruit{position:absolute;z-index:2;width:42px;height:42px;border-radius:50%;animation:dr 7.2s ease-in-out infinite alternate;
+  background:radial-gradient(circle at 34% 30%,#fff2cf,#f7c75f 20%,#e58c39 42%,#9c5a1c 64%,#5a3410 78%);
+  box-shadow:0 0 26px rgba(229,140,57,.4),inset 0 0 10px rgba(255,255,255,.3)}
+.fruit::before{content:"";position:absolute;left:50%;top:-10px;width:3px;height:12px;background:#6a8a4a;border-radius:2px;transform:translateX(-50%)}
+@keyframes dr{from{transform:translateY(-6px) rotate(-6deg)}to{transform:translateY(8px) rotate(7deg)}}
+.hbox{position:relative;z-index:3;display:grid;grid-template-columns:1fr .88fr;gap:2.6rem;align-items:center;padding:4rem 1.3rem 5.4rem;max-width:1180px;margin:0 auto}
+.kick{display:inline-flex;align-items:center;gap:.5rem;font-size:.75rem;color:#f7e3c6;background:rgba(229,140,57,.14);border:1px solid rgba(229,140,57,.5);padding:.3rem .8rem;border-radius:999px;margin-bottom:1rem;letter-spacing:.04em;font-weight:700}
+h1{font-size:clamp(1.75rem,4.6vw,3rem);line-height:1.22;font-weight:900;margin-bottom:1rem;letter-spacing:-.01em;color:#fff;text-shadow:0 0 40px rgba(143,170,118,.2)}
+h1 em{font-style:normal;color:#e58c39;text-shadow:0 0 26px rgba(229,140,57,.5)}
+.hero>p{color:#aac293;font-size:1rem;max-width:34em;margin-bottom:1.5rem}
+.acts{display:flex;gap:.7rem;flex-wrap:wrap}
+.b{padding:.78rem 1.8rem;border-radius:12px;font-weight:800;font-size:.94rem;border:0;cursor:pointer;transition:.25s}
+.b.p{background:#e58c39;color:#1a1208;box-shadow:0 10px 26px rgba(229,140,57,.42)}
+.b.p:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(229,140,57,.58)}
+.b.o{background:transparent;color:#e2ebd6;border:1px solid rgba(229,140,57,.5)}
+.sts{display:flex;gap:2.4rem;margin-top:1.7rem;flex-wrap:wrap}
+.sts div{font-size:.77rem;color:#8faa76}
+.sts b{display:block;font-size:1.6rem;color:#e58c39;font-weight:900;line-height:1.2;text-shadow:0 0 16px rgba(229,140,57,.32);font-variant-numeric:tabular-nums}
+
+/* 青藤卡 */
+.ch{position:relative;width:100%;max-width:330px;margin-left:auto;background:rgba(16,26,12,.86);border:1px solid rgba(120,168,82,.5);border-radius:14px;padding:1.1rem 1.15rem 1.2rem;box-shadow:0 26px 64px rgba(0,0,0,.5),0 0 80px rgba(120,168,82,.16);transform:rotate(2deg)}
+.ch::before{content:"";position:absolute;inset:0;border-radius:14px;box-shadow:inset 0 0 70px rgba(143,170,118,.1);pointer-events:none}
+.ch h4{font-size:.9rem;margin-bottom:.8rem;letter-spacing:.04em;display:flex;align-items:center;gap:.5rem;color:#f7e3c6}
+.ch h4 i{font-style:normal;font-size:.58rem;color:#1a1208;background:#e58c39;border-radius:4px;padding:.1rem .5rem;font-weight:800;letter-spacing:.1em}
+.ch .cut{height:1px;background:repeating-linear-gradient(90deg,rgba(143,170,118,.5) 0 6px,transparent 6px 12px);margin:.2rem 0 .7rem}
+.ch dl{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.ch dt{font-size:.62rem;color:#8faa76;letter-spacing:.08em;margin-bottom:.14rem}
+.ch dd{font-size:.8rem;font-weight:750;color:#e2ebd6}
+.ch p{font-size:.72rem;color:#aac293;line-height:1.7}
+.ch .mk{position:absolute;right:.5rem;top:.4rem;font-size:2.2rem;font-weight:900;color:rgba(143,170,118,.3);line-height:1;letter-spacing:-.05em;font-family:Georgia,serif}
+
+/* 通用 */
+section{padding:3.4rem 0}
+.uh{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:1.7rem;flex-wrap:wrap}
+.ut{font-size:clamp(1.3rem,2.8vw,1.85rem);font-weight:900;display:flex;align-items:center;gap:.6rem;color:#fff}
+.ut::before{content:"";width:5px;height:1.2em;border-radius:3px;background:linear-gradient(#f7e3c6,#e58c39)}
+.us{font-size:.8rem;color:#8faa76}
+.us:hover{color:#f7e3c6}
+
+/* A：频道导航（Grid 卡片墙） */
+.now{background:#0c1309;border-top:1px solid rgba(120,168,82,.26);border-bottom:1px solid rgba(120,168,82,.26)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:1rem}
+.en{border:1px solid rgba(143,170,118,.3);border-radius:16px;overflow:hidden;background:#172111;transition:.34s;cursor:pointer;display:flex;flex-direction:column}
+.en:hover{transform:translateY(-7px) rotate(-.8deg);border-color:#e58c39;box-shadow:0 26px 56px rgba(0,0,0,.5),0 0 40px rgba(229,140,57,.22)}
+.cvr{height:140px;display:flex;align-items:center;justify-content:center;font-size:2.7rem;position:relative}
+.cvr::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(16,23,13,.97),transparent 56%)}
+.cvr b{position:relative;z-index:2;transition:.4s;font-weight:400;filter:drop-shadow(0 6px 10px rgba(0,0,0,.4))}
+.en:hover .cvr b{transform:scale(1.16) rotate(9deg)}
+.cvr .mn{position:absolute;top:.6rem;left:.6rem;z-index:3;font-size:.62rem;font-weight:800;padding:.2rem .55rem;border-radius:6px;background:#e58c39;color:#1a1208;letter-spacing:.08em;box-shadow:0 0 12px rgba(229,140,57,.5)}
+.cvr .tg{position:absolute;top:.6rem;right:.6rem;z-index:3;font-size:.6rem;font-weight:800;padding:.2rem .5rem;border-radius:6px;background:rgba(16,26,12,.82);color:#f7e3c6;border:1px solid rgba(229,140,57,.6);letter-spacing:.06em}
+.en h3{font-size:.96rem;padding:.8rem .95rem .2rem;display:flex;justify-content:space-between;gap:.5rem;align-items:baseline;color:#fff}
+.en h3 i{font-style:normal;font-size:.6rem;color:#f7e3c6;font-weight:800;white-space:nowrap;border:1px solid rgba(229,140,57,.6);border-radius:999px;padding:.12rem .5rem;background:rgba(229,140,57,.1);letter-spacing:.06em}
+.en p{font-size:.74rem;color:#8faa76;padding:0 .95rem .9rem}
+
+/* B：片单分类（定义列表 dl/dt/dd） */
+.sea{background:#10170d}
+.sp{display:grid;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));gap:1rem}
+.sp>div{background:#172111;border:1px solid rgba(143,170,118,.28);border-radius:16px;padding:1.15rem 1.2rem 1.25rem;transition:.32s;position:relative;overflow:hidden}
+.sp>div::before{content:"";position:absolute;right:-32px;top:-32px;width:126px;height:126px;border-radius:50%;opacity:.26;filter:blur(3px)}
+.sp>div:nth-child(1)::before{background:#e58c39}
+.sp>div:nth-child(2)::before{background:#6b9e6b}
+.sp>div:nth-child(3)::before{background:#c4a24d}
+.sp>div:nth-child(4)::before{background:#8f7aa6}
+.sp>div:nth-child(5)::before{background:#c67a5a}
+.sp>div:nth-child(6)::before{background:#5d8a94}
+.sp>div:hover{transform:translateY(-7px);border-color:#e58c39;box-shadow:0 26px 56px rgba(0,0,0,.5),0 0 36px rgba(229,140,57,.16)}
+.sp .av{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:.85rem;position:relative;color:#fff;font-weight:900;line-height:1;font-size:1.25rem;letter-spacing:-.04em;text-shadow:0 2px 4px rgba(0,0,0,.4)}
+.a1{background:linear-gradient(150deg,#f7d38a,#a85f1c)}
+.a2{background:linear-gradient(150deg,#bfd9ad,#3d7a44)}
+.a3{background:linear-gradient(150deg,#ecdda6,#9c7c28)}
+.a4{background:linear-gradient(150deg,#d4c8e6,#735a96)}
+.a5{background:linear-gradient(150deg,#eebfa4,#9c4e34)}
+.a6{background:linear-gradient(150deg,#b9d4d8,#326270)}
+.sp h3{font-size:1rem;margin-bottom:.5rem;position:relative;color:#fff}
+.sp .yr{font-size:2.4rem;font-weight:900;color:rgba(143,170,118,.24);line-height:.9;letter-spacing:-.05em;position:absolute;right:.2rem;top:.2rem;font-variant-numeric:tabular-nums;font-family:Georgia,serif}
+.sp dl{position:relative;counter-reset:sp}
+.sp dt{font-size:.66rem;color:#f7e3c6;letter-spacing:.12em;margin:.6rem 0 .2rem;font-weight:800}
+.sp dd{font-size:.83rem;color:#aac293;padding-left:1.55em;position:relative;line-height:1.6}
+.sp dd::before{counter-increment:sp;content:counter(sp,lower-roman);position:absolute;left:0;top:0;color:#c47a2e;font-size:.72rem;font-weight:800;font-family:Georgia,serif}
+
+/* C：高分榜单（table） */
+.rk{background:#0c1309;border-top:1px solid rgba(120,168,82,.26)}
+.tb{width:100%;border-collapse:collapse;background:#172111;border:1px solid rgba(143,170,118,.3);border-radius:14px;overflow:hidden;font-size:.9rem}
+.tb th{background:#e58c39;color:#1a1208;font-weight:800;font-size:.78rem;letter-spacing:.05em;text-align:left;padding:.8rem .9rem;border-bottom:1px solid rgba(229,140,57,.34);white-space:nowrap}
+.tb td{padding:.72rem .9rem;border-bottom:1px solid rgba(143,170,118,.18);vertical-align:middle;color:#d5e0ca}
+.tb tr:last-child td{border-bottom:0}
+.tb tbody tr{transition:.2s}
+.tb tbody tr:hover{background:rgba(229,140,57,.13)}
+.tb td:first-child{font-weight:900;color:#e58c39;width:56px;text-align:center;font-variant-numeric:tabular-nums;font-family:Georgia,serif}
+.tb td:nth-child(2){font-weight:750}
+.tb td:nth-child(6){color:#f7e3c6;font-weight:800;white-space:nowrap}
+.tag{display:inline-block;font-size:.66rem;padding:.16rem .6rem;border-radius:999px;border:1px solid rgba(229,140,57,.6);color:#f7e3c6;white-space:nowrap;letter-spacing:.04em;background:rgba(229,140,57,.08)}
+.tag.w{color:#aac293;border-color:rgba(143,170,118,.5);background:rgba(143,170,118,.08)}
+.tag.v{color:#c6b0d8;border-color:rgba(198,176,216,.42);background:rgba(198,176,216,.08)}
+
+/* D：观影时刻（栅格时间轴 counter） */
+.md{background:#10170d}
+.tl{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1rem;counter-reset:tl;padding-top:.9rem}
+.tl::before{content:"";position:absolute;top:1.55rem;left:6%;right:6%;height:3px;border-radius:999px;
+  background:linear-gradient(90deg,#e58c39,#6b9e6b 50%,#8f7aa6);opacity:.55;z-index:1;box-shadow:0 0 12px rgba(229,140,57,.44)}
+.tl>div{position:relative;z-index:2;background:#172111;border:1px solid rgba(143,170,118,.28);border-radius:15px;padding:1.15rem 1.1rem 1.25rem;text-align:center;transition:.34s;cursor:pointer}
+.tl>div:hover{transform:translateY(-8px);border-color:#e58c39;box-shadow:0 26px 56px rgba(0,0,0,.5),0 0 34px rgba(229,140,57,.16)}
+.tl .dot{width:18px;height:18px;border-radius:50%;margin:0 auto .8rem;background:#e58c39;box-shadow:0 0 0 5px #172111,0 0 18px rgba(229,140,57,.58)}
+.tl>div:nth-child(2) .dot{background:#6b9e6b;box-shadow:0 0 0 5px #172111,0 0 18px rgba(107,158,107,.5)}
+.tl>div:nth-child(3) .dot{background:#c4a24d;box-shadow:0 0 0 5px #172111,0 0 18px rgba(196,162,77,.5)}
+.tl>div:nth-child(4) .dot{background:#8f7aa6;box-shadow:0 0 0 5px #172111,0 0 18px rgba(143,122,166,.5)}
+.tl .tm{font-size:.72rem;color:#8faa76;letter-spacing:.06em;margin-bottom:.35rem;font-variant-numeric:tabular-nums}
+.tl h3{font-size:.96rem;margin-bottom:.45rem;color:#fff}
+.tl p{font-size:.73rem;color:#8faa76}
+.tl .mk{position:absolute;right:.5rem;bottom:.3rem;font-size:3.4rem;font-weight:900;color:rgba(143,170,118,.2);line-height:1;counter-increment:tl;content:counter(tl,decimal-leading-zero);font-family:Georgia,serif}
+
+/* E：收录刻度（meter 语义 + 渐变条） */
+.sc{background:#0c1309;border-top:1px solid rgba(120,168,82,.26)}
+.bars{display:grid;gap:1.1rem}
+.bar{background:#172111;border:1px solid rgba(143,170,118,.3);border-radius:14px;padding:1.05rem 1.2rem;transition:.3s}
+.bar:hover{border-color:#e58c39;box-shadow:0 20px 46px rgba(0,0,0,.5),0 0 30px rgba(229,140,57,.14)}
+.bar .hd{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.bar h3{font-size:.98rem;letter-spacing:.02em;color:#fff}
+.bar .pc{font-size:.74rem;color:#8faa76;white-space:nowrap}
+.bar meter{width:100%;height:12px;border-radius:999px;background:#0d160a;border:0}
+.bar meter::-webkit-meter-bar{background:#0d160a;border-radius:999px;border:0}
+.bar meter::-webkit-meter-optimum-value{background:linear-gradient(90deg,#f7e3c6,#e58c39);border-radius:999px;box-shadow:0 0 10px rgba(229,140,57,.5)}
+.bar:nth-child(2) meter::-webkit-meter-optimum-value{background:linear-gradient(90deg,#cfe6bd,#3d7a44)}
+.bar:nth-child(3) meter::-webkit-meter-optimum-value{background:linear-gradient(90deg,#ecdda6,#9c7c28)}
+.bar:nth-child(4) meter::-webkit-meter-optimum-value{background:linear-gradient(90deg,#d4c8e6,#735a96)}
+.bar p{font-size:.78rem;color:#8faa76;margin-top:.45rem}
+
+/* F：常见问题（q/p 双栏） */
+.qa{background:#10170d}
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.qs>div{border-left:4px solid #e58c39;background:#172211;border-radius:0 14px 14px 0;padding:1.1rem 1.25rem 1.25rem;transition:.32s;position:relative}
+.qs>div:nth-child(2){border-left-color:#6b9e6b}
+.qs>div:nth-child(3){border-left-color:#c4a24d}
+.qs>div:nth-child(4){border-left-color:#8f7aa6}
+.qs>div:hover{transform:translateX(6px);box-shadow:0 24px 52px rgba(0,0,0,.5),0 0 26px rgba(229,140,57,.12)}
+.qs q{display:block;font-size:.98rem;font-weight:800;margin-bottom:.55rem;quotes:"「""」";color:#e2ebd6}
+.qs q::before{content:open-quote;color:#e58c39;font-size:1.5rem;line-height:.6;margin-right:.3rem;vertical-align:-.18em}
+.qs q::after{content:close-quote;color:#e58c39;font-size:1.5rem;line-height:.6;margin-left:.2rem}
+.qs>div:nth-child(2) q::before,.qs>div:nth-child(2) q::after{color:#8fc06f}
+.qs>div:nth-child(3) q::before,.qs>div:nth-child(3) q::after{color:#c4a24d}
+.qs>div:nth-child(4) q::before,.qs>div:nth-child(4) q::after{color:#a08bb4}
+.qs p{font-size:.8rem;color:#aac293;line-height:1.85}
+.qs .no{position:absolute;right:.8rem;top:.6rem;font-size:2.2rem;font-weight:900;color:rgba(143,170,118,.24);line-height:1;font-family:Georgia,serif;font-style:italic}
+
+/* 页脚 */
+.foot{background:#080c06;padding:2.6rem 0 1.2rem;border-top:1px solid rgba(120,168,82,.28)}
+.fg2{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1.5rem;margin-bottom:1.6rem}
+.foot h5{font-size:.92rem;color:#f7e3c6;margin-bottom:.7rem;display:flex;align-items:center;gap:.4rem;letter-spacing:.02em}
+.foot li{font-size:.83rem;color:#8faa76;line-height:1.95}
+.foot a:hover{color:#f7e3c6}
+.cp{text-align:center;font-size:.74rem;color:#8faa76;border-top:1px solid rgba(143,170,118,.28);padding-top:1.2rem;line-height:1.95}
+.cp a{color:#e58c39;font-weight:700}
+.note{display:inline-block;margin-top:.6rem;font-size:.72rem;color:#aac293;background:rgba(23,33,17,.9);border:1px solid rgba(143,170,118,.32);border-radius:8px;padding:.5rem .9rem}
+
+@media(max-width:900px){
+  .hbox{grid-template-columns:1fr;padding-top:2.6rem;padding-bottom:3.4rem}
+  .leaf{display:none}
+  .fruit{transform:scale(.62);opacity:.5}
+  .ch{margin:0 auto;transform:scale(.92) rotate(0)}
+  .wrap{padding:0 1rem}
+  section{padding:2.6rem 0}
+  h1{font-size:1.65rem}
+  .grid{grid-template-columns:repeat(2,1fr);gap:.7rem}
+  .cvr{height:104px;font-size:2rem}
+  .en h3{font-size:.8rem;padding:.7rem .8rem .2rem;flex-direction:column;gap:.3rem}
+  .tl::before{display:none}
+  .tl{grid-template-columns:1fr 1fr}
+  .tb thead{display:none}
+  .tb tr{display:block;padding:.3rem 0}
+  .tb td{display:block;padding:.26rem .9rem;border:0}
+  .tb td:first-child{color:#e58c39;width:auto;text-align:left;font-size:.76rem}
+  .tb td:nth-child(4){display:none}
+  .b{flex:1;text-align:center;padding:.72rem 1.2rem;font-size:.9rem}
+  .brand small{display:none}
+}
+@media print{.top,.acts,.ch,.vines,.leaf,.fruit{display:none}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header class="top" role="banner">
+  <div class="tin">
+    <a class="brand" href="#top"><span class="logo">🍈</span><span>木瓜影视</span><small>精选优质影视导航大全 · 实用网址收录平台</small><em>SWEET · SLOW · STORY</em></a>
+    <nav class="tabs" aria-label="主导航">
+      <a href="#now" class="on">频道导航</a>
+      <a href="#sea">片单分类</a>
+      <a href="#rk">高分榜单</a>
+      <a href="#md">观影时刻</a>
+      <a href="#sc">收录刻度</a>
+      <a href="#qa">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="vines" aria-hidden="true"></div>
+  <div class="leaf" style="left:4%;top:8%;width:74px;height:44px;background:linear-gradient(135deg,#4d7a44,#2c4a28)" aria-hidden="true"></div>
+  <div class="leaf" style="right:3%;top:16%;width:90px;height:52px;background:linear-gradient(135deg,#5c8a52,#33562e);animation-delay:-2.2s" aria-hidden="true"></div>
+  <div class="leaf" style="left:12%;bottom:10%;width:66px;height:40px;background:linear-gradient(135deg,#3f6b3a,#274422);animation-delay:-4.1s" aria-hidden="true"></div>
+  <div class="fruit" style="left:8%;top:26%" aria-hidden="true"></div>
+  <div class="fruit" style="right:16%;top:32%;transform:scale(.72)" aria-hidden="true"></div>
+  <div class="fruit" style="right:5%;bottom:14%;transform:scale(.56)" aria-hidden="true"></div>
+  <div class="hbox">
+    <div>
+      <span class="kick">✦ 木瓜影视 · 精选优质影视导航大全 · 实用网址收录平台</span>
+      <h1>甜的，<br>要<b>慢慢切</b></h1>
+      <p><b style="color:#f7e3c6">木瓜影视</b>是一个<b>影视导航与网址收录平台</b>：按<b>院线、剧集、纪录、动画、修复、短片</b>六个频道，整理<b>正版观影入口</b>。"木瓜"取<b>甜得慢、耐得住</b>——好电影像一只木瓜，刚切开不甜，放一会儿才出味儿。本站<b>不提供任何影视资源下载、转存、在线播放或盗版链接</b>。我们收入口，不收文件。</p>
+      <div class="acts"><a class="b p" href="#now">打开频道导航</a><a class="b o" href="#sea">看看片单分类</a></div>
+      <div class="sts"><div><b>6</b>个频道</div><div><b>0</b>个盗链</div><div><b>4</b>个雨林钟点</div></div>
+    </div>
+    <aside class="ch" aria-label="今日放映">
+      <span class="mk">∿</span>
+      <h4>🌿 雨林放映 <i>ON AIR</i></h4>
+      <div class="cut" aria-hidden="true"></div>
+      <dl><dt>频道</dt><dd>纪录片</dd><dt>片目</dt><dd>《地球脉动》</dd>
+      <dt>期数</dt><dd>第 22 期</dd><dt>时长</dt><dd>50′</dd></dl>
+      <div class="cut" aria-hidden="true"></div>
+      <p>"<b>地球不在乎我们。它只在乎它自己——而这正是它美的原因。</b>"<br>—— 木瓜影视 · 开场白</p>
+    </aside>
+  </div>
+</section>
+
+<section id="now" class="now">
+  <div class="wrap">
+    <div class="uh"><h2 class="ut">频道导航</h2><a class="us" href="#">木瓜影视 · 六个频道，各归其位 →</a></div>
+    <div class="grid">
+      <article class="en"><div class="cvr" style="background:linear-gradient(150deg,#172111,#24361b)"><span class="mn">HOT</span><b>🎟️</b></div><h3>院线 <i>正版</i></h3><p>正在上映的，去电影院看。索引官方购票与预告。</p></article>
+      <article class="en"><div class="cvr" style="background:linear-gradient(150deg,#172111,#1f3017)"><span class="tg">剧集</span><b>📺</b></div><h3>剧集 <i>追更</i></h3><p>一集一集，慢慢熬。只指正规视频平台。</p></article>
+      <article class="en"><div class="cvr" style="background:linear-gradient(150deg,#172111,#22361a)"><span class="mn">纪实</span><b>🌴</b></div><h3>纪录片 <i>长见识</i></h3><p>真实比剧本更狠。公版与展映入口为主。</p></article>
+      <article class="en"><div class="cvr" style="background:linear-gradient(150deg,#172111,#2e2a1c)"><span class="tg">动画</span><b>🎨</b></div><h3>动画 <i>全年龄</i></h3><p>手绘、定格、3D。一帧一帧都是功夫。</p></article>
+      <article class="en"><div class="cvr" style="background:linear-gradient(150deg,#172111,#24301c)"><span class="mn">修复</span><b>🎞️</b></div><h3>修复经典 <i>4K</i></h3><p>版权到期的公版经典与官方 4K 修复买断版。</p></article>
+      <article class="en"><div class="cvr" style="background:linear-gradient(150deg,#172111,#1d2c22)"><span class="tg">短片</span><b>🍃</b></div><h3>短片 <i>50′</i></h3><p>50 分钟以内，刚好够把细节看完第二遍。</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="sea" class="sea">
+  <div class="wrap">
+    <div class="uh"><h2 class="ut">片单分类</h2><span class="us">木瓜影视 · 按"想看什么"而不是"叫什么"来分</span></div>
+    <div class="sp">
+      <div><span class="av">i</span><span class="yr">i</span><h3>想被治愈</h3>
+        <dl><dt>看什么</dt><dd>光、食物、慢节奏</dd><dt>问一句</dt><dd>它让你想起谁？</dd><dt>代表</dt><dd>《海街日记》</dd></dl></div>
+      <div><span class="av">ii</span><span class="yr">ii</span><h3>想被震撼</h3>
+        <dl><dt>看什么</dt><dd>长镜头、大场面、配乐</dd><dt>问一句</dt><dd>它凭什么这么拍？</dd><dt>代表</dt><dd>《绿里奇迹》</dd></dl></div>
+      <div><span class="av">iii</span><span class="yr">iii</span><h3>想动脑子</h3>
+        <dl><dt>看什么</dt><dd>结构、台词、反转</dd><dt>问一句</dt><dd>第一遍漏了什么？</dd><dt>代表</dt><dd>《盗梦空间》</dd></dl></div>
+      <div><span class="av">iv</span><span class="yr">iv</span><h3>想哭一场</h3>
+        <dl><dt>看什么</dt><dd>表演、留白、配乐</dd><dt>问一句</dt><dd>它为什么不解释？</dd><dt>代表</dt><dd>《海边的曼彻斯特》</dd></dl></div>
+      <div><span class="av">v</span><span class="yr">v</span><h3>想看世界</h3>
+        <dl><dt>看什么</dt><dd>地理、风俗、真实</dd><dt>问一句</dt><dd>他们怎么活？</dd><dt>代表</dt><dd>《地球脉动》</dd></dl></div>
+      <div><span class="av">vi</span><span class="yr">vi</span><h3>想安静待着</h3>
+        <dl><dt>看什么</dt><dd>色彩、构图、沉默</dd><dt>问一句</dt><dd>它空出来的那格是什么？</dd><dt>代表</dt><dd>《都灵之马》</dd></dl></div>
+    </div>
+  </div>
+</section>
+
+<section id="rk" class="rk">
+  <div class="wrap">
+    <div class="uh"><h2 class="ut">高分榜单</h2><span class="us">木瓜影视 · 值得再看一遍的 7 部</span></div>
+    <table class="tb">
+      <thead><tr><th>#</th><th>频道</th><th>片目</th><th>片长</th><th>建议设备</th><th>评分</th></tr></thead>
+      <tbody>
+        <tr><td>i</td><td>修复经典</td><td>海街日记</td><td>126′</td><td><span class="tag">晨间</span></td><td>9.6</td></tr>
+        <tr><td>ii</td><td>院线</td><td>绿里奇迹</td><td>189′</td><td><span class="tag">深夜</span></td><td>9.6</td></tr>
+        <tr><td>iii</td><td>短片</td><td>鹬</td><td>6′</td><td><span class="tag">晨间</span></td><td>9.5</td></tr>
+        <tr><td>iv</td><td>剧集</td><td>漫长的季节</td><td>45′×12</td><td><span class="tag w">深夜</span></td><td>9.5</td></tr>
+        <tr><td>v</td><td>纪录片</td><td>地球脉动</td><td>50′×11</td><td><span class="tag">音响</span></td><td>9.5</td></tr>
+        <tr><td>vi</td><td>动画</td><td>千与千寻</td><td>125′</td><td><span class="tag v">大屏</span></td><td>9.5</td></tr>
+        <tr><td>vii</td><td>修复经典</td><td>都灵之马</td><td>155′</td><td><span class="tag">深夜</span></td><td>9.4</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="md" class="md">
+  <div class="wrap">
+    <div class="uh"><h2 class="ut">观影时刻</h2><span class="us">木瓜影视 · 雨林一天，四个钟点</span></div>
+    <div class="tl">
+      <div><span class="dot" aria-hidden="true"></span><div class="tm">06:30</div><h3>露水</h3><p>《海街日记》一段。<br>晨光铺满长镜头，一天就顺了。</p></div>
+      <div><span class="dot" aria-hidden="true"></span><div class="tm">12:30</div><h3>正午</h3><p>《漫长的季节》一集。<br>45 分钟，刚好一顿饭的时间。</p></div>
+      <div><span class="dot" aria-hidden="true"></span><div class="tm">19:00</div><h3>斜阳</h3><p>《绿里奇迹》。<br>把亮度调到 70%，别开倍速。</p></div>
+      <div><span class="dot" aria-hidden="true"></span><div class="tm">23:40</div><h3>夜雨</h3><p>《都灵之马》。<br>看完别急着睡，把那格空白想完。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="sc" class="sc">
+  <div class="wrap">
+    <div class="uh"><h2 class="ut">收录刻度</h2><span class="us">木瓜影视 · 熟得最好的一格</span></div>
+    <div class="bars">
+      <div class="bar"><div class="hd"><h3>🎞️ 修复经典</h3><span class="pc">最该买断的一格 · 已收录 24 部</span></div><meter value="92" min="0" max="100" low="30" high="70" optimum="50"></meter><p>版权到期的公版经典与官方 4K 修复买断版。代表作《海街日记》《东京物语》《都灵之马》。</p></div>
+      <div class="bar"><div class="hd"><h3>🎟️ 院线</h3><span class="pc">最该去影院的一格 · 已收录 18 部</span></div><meter value="72" min="0" max="100" low="30" high="70" optimum="50"></meter><p>只索引官方购票与预告入口。大银幕的光，手机给不了。</p></div>
+      <div class="bar"><div class="hd"><h3>🌴 纪录片</h3><span class="pc">最被低估的一格 · 已收录 31 部</span></div><meter value="84" min="0" max="100" low="30" high="70" optimum="50"></meter><p>真实比剧本更狠。以公版与资料馆展映入口为主。</p></div>
+      <div class="bar"><div class="hd"><h3>🎨 动画</h3><span class="pc">最费眼睛的一格 · 已收录 22 部</span></div><meter value="68" min="0" max="100" low="30" high="70" optimum="50"></meter><p>手绘、定格、3D，一帧一帧都是功夫。代表作《千与千寻》。</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="qa" class="qa">
+  <div class="wrap">
+    <div class="uh"><h2 class="ut">常见问题</h2><span class="us">木瓜影视 · 四个被问得最多的问题</span></div>
+    <div class="qs">
+      <div><span class="no">i</span><q>为什么叫"木瓜影视"？</q><p>因为"甜的，要慢慢切"。<b>好电影像一只木瓜：刚切开不甜，放一会儿才出味儿</b>——好的东西都不急着给。<br>本站是影视导航与网址收录平台，<b>不提供任何影视资源下载、转存、在线播放或盗版链接</b>。</p></div>
+      <div><span class="no">ii</span><q>为什么找不到"免费全集"？</q><p>因为"免费"和"正版"常常是两件事。本站只推荐合法的免费：版权到期的公版片、平台周年庆 7 天限免、高校资料馆放映、美术馆影像厅。其余，请买票、买会员、买修复版。</p></div>
+      <div><span class="no">iii</span><q>网址收录的标准是什么？</q><p>三条：<b>合法</b>（有版权或公版）、<b>干净</b>（无弹窗、无跳转、无诱导）、<b>长期</b>（三年内仍可访问）。不符合的直接不收。宁可少，不可脏。</p></div>
+      <div><span class="no">iv</span><q>第一次来，从哪一部开始？</q><p>从《海街日记》开始。126 分钟，四条姐妹、一棵梅子树、一段长镜头。<b>甜的，要慢慢切</b>——把亮度调到刚刚好，看完你会懂：好电影是一扇窗，雨林会替它打开。</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot" role="contentinfo">
+  <div class="wrap">
+    <div class="fg2">
+      <div><h5>🍈 木瓜影视</h5><ul><li><a href="#now">频道导航</a></li><li><a href="#sea">片单分类</a></li><li><a href="#rk">高分榜单</a></li><li><a href="#md">观影时刻</a></li><li><a href="#sc">收录刻度</a></li><li><a href="#qa">常见问题</a></li></ul></div>
+      <div><h5>🎟️ 频道</h5><ul><li><a href="#">院线</a></li><li><a href="#">剧集</a></li><li><a href="#">纪录片</a></li><li><a href="#">动画</a></li><li><a href="#">修复经典</a></li><li><a href="#">短片</a></li></ul></div>
+      <div><h5>🔗 正版入口</h5><ul><li><a href="#">公版经典</a></li><li><a href="#">平台限免</a></li><li><a href="#">资料馆展映</a></li><li><a href="#">4K 修复买断</a></li><li><a href="#">官方购票</a></li></ul></div>
+      <div><h5>🌿 观影时刻</h5><ul><li><a href="#">06:30 露水</a></li><li><a href="#">12:30 正午</a></li><li><a href="#">19:00 斜阳</a></li><li><a href="#">23:40 夜雨</a></li></ul></div>
+      <div><h5>🙏 关于本站</h5><ul><li><a href="#">收录标准</a></li><li><a href="#">版权声明</a></li><li><a href="#">免责声明</a></li><li><a href="#">建议片目</a></li></ul></div>
+    </div>
+    <div class="cp">
+      © 2026 木瓜影视（精选优质影视导航大全 · 实用网址收录平台）. 本站为<b>影视导航与网址收录</b>平台，<b>不提供任何影视资源下载、转存、在线播放或盗版链接</b>，倡导支持正版、去电影院、买修复版。<br>
+      网站网址：<a href="https://muguayingshi-cn.github.io/">https://muguayingshi-cn.github.io/</a>
+      <span class="note">「木瓜」释义：甜的，要慢慢切——好电影像一只木瓜，刚切开不甜，放一会儿才出味儿。收录标准：合法、干净、长期。所有片单均为公开上映或已进入公版期的合法影片；平台名称、片名、演职员信息以官方公布为准。</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.tabs a').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.querySelectorAll('.tabs a').forEach(function(x){x.classList.remove('on')});
+    a.classList.add('on');
+  });
+});
+</script>
+</body>
+</html>
